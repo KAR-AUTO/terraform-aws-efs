@@ -2,6 +2,48 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.6.0](https://github.com/terraform-aws-modules/terraform-aws-efs/compare/v1.5.0...v1.6.0) (2024-01-21)
+
+
+### Features
+
+* Added support in lifecycle_policy with transition_to_archive ([#24](https://github.com/terraform-aws-modules/terraform-aws-efs/issues/24)) ([c6d4be0](https://github.com/terraform-aws-modules/terraform-aws-efs/commit/c6d4be01017517e6d829a3a0cac61a7825b15f72))
+
+## [1.5.0](https://github.com/terraform-aws-modules/terraform-aws-efs/compare/v1.4.0...v1.5.0) (2024-01-19)
+
+
+### Features
+
+* Wrapper for terragrunt ([#23](https://github.com/terraform-aws-modules/terraform-aws-efs/issues/23)) ([5c7ce58](https://github.com/terraform-aws-modules/terraform-aws-efs/commit/5c7ce5828693a1184d6fdad1a0378c4339fcad10))
+
+## [1.4.0](https://github.com/terraform-aws-modules/terraform-aws-efs/compare/v1.3.1...v1.4.0) (2024-01-12)
+
+
+### Features
+
+* Added AccessedViaMountTarget condition for deny_nonsecure_transport ([#21](https://github.com/terraform-aws-modules/terraform-aws-efs/issues/21)) ([543f54c](https://github.com/terraform-aws-modules/terraform-aws-efs/commit/543f54cdf203108106d006ea693463ea463df293))
+
+### [1.3.1](https://github.com/terraform-aws-modules/terraform-aws-efs/compare/v1.3.0...v1.3.1) (2023-11-03)
+
+
+### Bug Fixes
+
+* Use `lookup()` on computed resource attribute lookups in `for_each` loop ([#18](https://github.com/terraform-aws-modules/terraform-aws-efs/issues/18)) ([a206e43](https://github.com/terraform-aws-modules/terraform-aws-efs/commit/a206e4397871609dbf80866eb9cddd4b597075c8))
+
+## [1.3.0](https://github.com/terraform-aws-modules/terraform-aws-efs/compare/v1.2.0...v1.3.0) (2023-09-13)
+
+
+### Features
+
+* Add lifecycle create_before_destroy to avoid timeout with security group ([#16](https://github.com/terraform-aws-modules/terraform-aws-efs/issues/16)) ([cab07ba](https://github.com/terraform-aws-modules/terraform-aws-efs/commit/cab07ba2448691c94eb192fbe5a588bcc59dfbdd))
+
+## [1.2.0](https://github.com/terraform-aws-modules/terraform-aws-efs/compare/v1.1.1...v1.2.0) (2023-06-28)
+
+
+### Features
+
+* Added support for elastic throughput mode ([#13](https://github.com/terraform-aws-modules/terraform-aws-efs/issues/13)) ([e247e72](https://github.com/terraform-aws-modules/terraform-aws-efs/commit/e247e72ebaa816cbd46cc508ed2aaab94e03ff74))
+
 ### [1.1.1](https://github.com/terraform-aws-modules/terraform-aws-efs/compare/v1.1.0...v1.1.1) (2023-01-17)
 
 
